@@ -16,7 +16,13 @@
     <header class="w-full max-w-6xl mx-auto px-6 py-6 flex justify-center md:justify-start z-10">
         <div class="flex items-center gap-3 bg-white px-5 py-3 rounded-xl border border-slate-200 shadow-sm">
             <!-- Official Logo Image Calling -->
-            <img src="logo.png" alt="Logo KLBS" class="h-12 w-12 object-cover rounded-full shadow-inner" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+            <div class="w-12 h-12 rounded-full overflow-hidden flex items-center justify-center bg-white border border-slate-100 shadow-sm">
+    <img src="logo.png" alt="Logo KLBS" class="w-full h-full object-cover scale-[1.28]" onerror="this.parentElement.style.display='none'; this.parentElement.nextElementSibling.style.display='flex';">
+</div>
+
+<div style="display:none;" class="w-10 h-10 bg-emerald-600 rounded-full flex items-center justify-center font-bold text-white text-lg shadow-md">
+    K
+</div>
 
             
             <!-- Fallback design if logo.png is not uploaded yet -->
